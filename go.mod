@@ -1,4 +1,4 @@
-module tars
+module github.com/arlottang/tars
 
 go 1.22.4
 

@@ -1,4 +1,4 @@
-package middleware
+package cors
 
 import (
 	"github.com/go-kratos/kratos/v2/transport/http"
@@ -6,7 +6,7 @@ import (
 	"github.com/gorilla/handlers"
 )
 
-func CORSHandler() http.ServerOption {
+func ServerOption() http.ServerOption {
 	corsHandler := handlers.CORS(
 		handlers.AllowedOrigins([]string{"*"}),
 		handlers.AllowedMethods([]string{"GET", "POST", "OPTIONS", "PUT", "DELETE"}),
