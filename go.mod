@@ -3,7 +3,7 @@ module github.com/arlottang/tars
 go 1.22.4
 
 require (
-	github.com/go-kratos/kratos/v2 v2.7.3
+	github.com/go-kratos/kratos/v2 v2.7.2
 	github.com/gorilla/handlers v1.5.2
 )
 
