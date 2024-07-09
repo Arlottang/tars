@@ -5,9 +5,12 @@ go 1.22.4
 require (
 	github.com/go-kratos/kratos/v2 v2.7.2
 	github.com/gorilla/handlers v1.5.2
+	github.com/redis/go-redis/v9 v9.5.3
 )
 
 require (
+	github.com/cespare/xxhash/v2 v2.2.0 // indirect
+	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
 	github.com/felixge/httpsnoop v1.0.3 // indirect
 	github.com/go-kratos/aegis v0.2.0 // indirect
 	github.com/go-playground/form/v4 v4.2.0 // indirect
